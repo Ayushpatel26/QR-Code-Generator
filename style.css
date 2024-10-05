@@ -57,6 +57,15 @@ body {
 .error {
     animation: shake 0.1s linear 10;
 }
+button:disabled {
+    background-color: gray;
+    cursor: not-allowed;
+    color: white;
+}
+.container button a {
+    text-decoration: none;
+    color: white;
+}
 @keyframes shake{
     0% {
         transform: translateX(0);
